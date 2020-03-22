@@ -21,4 +21,4 @@ jobs:
       with:
         java-version: 1.8
     - name: Build with Ant
-      run: java -cp "test_lib/*.jar" -jar Code/src/Main.java
+      run: javac -cp "test_lib/*.jar" Code/src/Main.java
